@@ -1,0 +1,17 @@
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+crash.*.log
+
+# don't include any tfvars because they likely contain sensitive data and they should not be part of the repository 
+# also they are potentially environment specific
+
+# override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform/.terraform.lock.hcl
