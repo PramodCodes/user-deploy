@@ -18,7 +18,7 @@ pipeline{
     // this can be used across pipeline
     // environment {
     //     packageVersion = ''
-    //     nexusURL = '172.31.92.207:8081'
+    //     nexusURL = 'nexus.pka.in.net:8081'
     // }
     
     parameters {
